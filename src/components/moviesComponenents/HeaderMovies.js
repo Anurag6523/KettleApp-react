@@ -42,6 +42,7 @@ const HeaderMovies = () => {
         // User is signed out
         dispatch(removeUser());
         navigate("/login");
+        
       }
     });
 
